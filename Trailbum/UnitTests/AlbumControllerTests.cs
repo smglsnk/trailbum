@@ -6,7 +6,7 @@ namespace UnitTests;
 public class AlbumControllerTests
 {
     [Fact]
-    public async void Get_ReturnsOk()
+    public async Task Get_ReturnsOk()
     {
         // Arrange
         var controller = new AlbumController();
