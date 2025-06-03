@@ -15,6 +15,6 @@ public class AlbumControllerTests
         var response = await controller.GetAlbums();
         
         // Assert
-        Assert.IsType<NotFoundObjectResult>(response);
+        Assert.IsType<OkObjectResult>(response);
     }
 }
