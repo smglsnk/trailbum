@@ -1,1 +1,3 @@
-# Init commit
+# Trailbum
+
+Just a simple project for testing stuff.
